@@ -1,0 +1,32 @@
+* body {
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: sans-serif;
+}
+h1 {
+  color: grey;
+  text-align: center;
+  text-shadow: 1px 1px white;
+}
+input, .input-box {
+ height: 25px;
+ font-size: 16px;
+
+}
+button {
+  height: 35px;
+  width: 84px;
+  border-radius: 5%;
+  margin-top: 1%;
+}
+img {
+  margin-top: 8%;
+  margin-left: 32%;
+  height: 400px;
+  width: 400px;
+}
+.form {
+  margin: auto;
+  width: 40%;
+}
