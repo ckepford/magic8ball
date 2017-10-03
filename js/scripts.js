@@ -1,5 +1,5 @@
 // target your button and assign an ask function that outputs a random image to your page
-let inputBox;
+
 
 document.querySelector('.input-box').focus();
 document.querySelector('.input-box').select();
@@ -24,9 +24,9 @@ function resetInput() {
     document.querySelector(".input-box").value = '';
 }
 
+// function inputRequired() {
+//     document.querySelector(".input-box").required = true;
+// }
 
 
-// clear input box after ask button is pressed or enter pressed
-// make enter button activate ask function
-// require text in input box to activate ask function
-// make curser appear in box on page load
+// figure out how to require text in input box to activate ask function
